@@ -1,119 +1,66 @@
-#
-# Basic settings.
-#
-# url: http://localhost:4000
-# baseurl: ""
-url: http://lilei.acept.top/
-baseurl: /
-title: LILEI
-description: very good!
-avatar: /assets/img/ogp.png
-# favicon: /favicon.ico
-favicon: /assets/img/ogp.png
-# language: ja
-language: zh
+# Site settings 配置站点
+title: '廖柯宇的独立博客'
+description: '昵称悟空，千禧一代，前端开发者/伪极客/灵魂摄影师，热爱技术&设计。很高兴能在这里与你分享我对技术和生活的思考。'
+keyword: '廖柯宇, 廖柯宇的独立博客, 廖柯宇的博客, 前端, 前端开发, 前端博客, javascript, vuejs, nodejs, 设计'
+url: 'http://liaokeyu.com' # your host
 
-#
-# Icons
-#
-icons:
-  rss: true
-  email:
-  github: ttskch
-  bitbucket:
-  twitter: ttskch
-  facebook:
-  google_plus:
-  tumblr:
-  behance:
-  dribbble:
-  flickr:
-  instagram:
-  linkedin: # full URL
-  pinterest:
-  reddit:
-  soundcloud:
-  stack_exchange: # full URL
-  steam:
-  wordpress:
-  youtube:
+# if you don't need baseurl, you should leave this value blank.
+baseurl: ''
 
-#
-# Prettify url.
-#
-permalink: pretty
+# Navigation links
+nav:
+  home: '/'
+  tags: '/tags.html'
 
-#
-# Scripts.
-#
-google_analytics: # e.g. UA-000000-01
-disqus:
+# Author 配置博主信息
+author: '廖柯宇'
+nickname: '悟空'
+bio: '前端开发者，热爱技术&设计，简单乐观爱创造'
+avatar: 'assets/img/profile.png'
 
-#
-# Localizations.
-#
-str_next: Next
-str_prev: Prev
-str_read_more: Read more...
-str_search: Search
-str_recent_posts: Recent posts
-str_show_all_posts: Show all posts
+# Search
+search: true
 
-#
-# Recent posts.
-#
-recent_posts_num: 10
+# Night mode
+nightMode: true
 
-#
-# Pagination.
-#
-paginate: 10
-paginate_path: page/:num
+# Comments
+disqus: false
+disqus_url: 'https://liaokeyu.disqus.com/embed.js'
 
-#
-# Social.
-#
-share_buttons:
-  twitter: true
-  facebook: false # needs ogp.fb.app_id
-  hatena: false
-ogp:
-  image_url: //ttskch.github.io/jekyll-ttskch-theme/assets/img/ogp.png
-  fb:
-    admin: # facebook admin id
-    app_id: # facebook application id
+# Share
+social-share: true
+social-share-items: ['wechat', 'weibo', 'douban', 'twitter']
 
-#
-# Gems.
-#
-gems:
-  - jekyll-paginate
-  - jemoji
+# theme color 主题皮肤
+theme-color: 'default'  # pink or default
 
-#
-# Styles: see "_sass/base/_variables.scss"
-#
+# Post header background patterns (when the post no cover): circuitBoard, overlappingCircles, food, glamorous, ticTacToe, seaOfClouds
+postPatterns: 'circuitBoard'
 
-#
-# !! Danger zone !!
-#
+# SNS settings 配置社交网站url: weibo, zhihu, twitter, instagram, juejin, github, douban, facebook, dribble, uicn, jianshu, medium, linkedin
+sns:
+  weibo: '//weibo.com/lovecolcol'
+  juejin: '//juejin.im/user/57a6f434165abd006159b4cc'
+  instagram: '//www.instagram.com/steveliaocn'
+  github: '//github.com/kaeyleo'
 
-include: ["_pages"]
+# Tags 设置标签
+recommend-tags: true # whether or not display recommend-tags on the sidebar
+recommend-condition-size: 12 # a tag will be recommended if the size of it is more than this value
 
+# Build settings
+paginate: 6
+paginate_path: 'page:num'
+exclude: ['node_modules', 'dev', 'package.json', 'gulpfile.js', '.gitignore', 'README.md']
+
+# Markdown
 markdown: kramdown
+highlighter: rouge
 kramdown:
   input: GFM
-  syntax_highlighter: rouge
 
-excerpt_separator: <!--more-->
+RSS: false
 
-sass:
-  sass_dir: _sass
-  style: :compressed # or :expanded
-
-exclude:
-  - Gemfile
-  - Gemfile.lock
-  - LICENSE
-  - README.md
-  - vendor
+# Plugins
+gems: [jekyll-paginate]
