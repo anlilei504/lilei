@@ -3,15 +3,15 @@
 #
 # url: http://localhost:4000
 # baseurl: ""
-url: http://ttskch.github.io
-baseurl: /jekyll-ttskch-theme
-title: Your name
-description: Some descriptions of yourself.
+url: http://lilei.acept.top/
+baseurl: /
+title: LILEI
+description: very good!
 avatar: /assets/img/ogp.png
 # favicon: /favicon.ico
 favicon: /assets/img/ogp.png
 # language: ja
-language: en
+language: zh
 
 #
 # Icons
