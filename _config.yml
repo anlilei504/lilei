@@ -7,6 +7,8 @@ url: 'http://lilei.acept.top' # your host
 # if you don't need baseurl, you should leave this value blank.
 baseurl: '/'
 
+aaaa: '/aaaa'
+
 # Navigation links
 nav:
   home: '/'
@@ -19,7 +21,7 @@ bio: '前端开发者，热爱技术&设计，简单乐观爱创造'
 avatar: 'assets/img/profile.jpg'
 
 # Search
-search: false
+search: true
 
 # Night mode
 nightMode: true
