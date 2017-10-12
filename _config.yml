@@ -5,7 +5,7 @@ keyword: '李磊, 李磊的博客, 前端, 前端开发, 前端博客'
 url: 'http://lilei.acept.top' # your host
 
 # if you don't need baseurl, you should leave this value blank.
-baseurl: '\\'
+baseurl: '/'
 
 # Navigation links
 nav:
