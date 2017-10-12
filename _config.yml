@@ -7,7 +7,7 @@ url: 'http://lilei.acept.top' # your host
 # if you don't need baseurl, you should leave this value blank.
 baseurl: '/'
 
-aaaa: '/aaaa'
+aaaa: '/'
 
 # Navigation links
 nav:
