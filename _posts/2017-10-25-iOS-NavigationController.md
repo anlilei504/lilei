@@ -4,7 +4,7 @@ title: 'iOS关于手势返回造成应用卡死问题'
 subtitle: 'iOS手势卡死'
 date: 2017-10-25
 categories: 技术
-cover: 'https://timgsa.baidu.com/timg?image&quality=80&size=b9999_10000&sec=1508924106880&di=5e62899d9e231c4638c777afa68dd2e0&imgtype=0&src=http%3A%2F%2Fwww.elecfans.com%2Fuploads%2Fallimg%2F170914%2F2438312-1F91411332Q37.png'
+cover: 'https://timgsa.baidu.com/timg?image&quality=80&size=b9999_10000&sec=1508926620057&di=6aaedd85f9b63b735d0f26bb7ed25da4&imgtype=0&src=http%3A%2F%2Fi0.hdslb.com%2Fbfs%2Farchive%2Fb47ea80748cc87f019b3b39d96b6bfdd2f82e622.jpg'
 tags: iOS 问题 卡死
 ---
 
