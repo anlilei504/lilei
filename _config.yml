@@ -25,8 +25,13 @@ search: true
 nightMode: true
 
 # Comments
-disqus: true
+disqus: false
 disqus_url: 'https://lilei727.disqus.com/embed.js'
+
+# 来必力
+livere: true
+livere_id: 'MTAyMC8zMTMxMi83ODYx'
+
 
 # Share
 social-share: true
