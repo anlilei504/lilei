@@ -75,6 +75,7 @@ header-img: assets/img/bg.jpg
                     {% endfor %}
                 </ul>
                 {% endif %}
+
             </section>
 
             {% if site.recommend-tags and site.tags.size>0 %}
@@ -84,6 +85,22 @@ header-img: assets/img/bg.jpg
                         {% break %}
                     {% endif %}
                     <a href="{{ "tags.html#" | append: tag[0] | prepend: site.baseurl }}" class="tag">{{ tag[0]}}</a>
+                {% endfor %}
+            </section>
+            {% endif %}
+
+
+
+
+
+            {% if site.friend.size > 0 %}
+            
+            <section class="friend-card">
+                <div style="font-size:16px;margin-bottom:10px;"><i >友情链接</i></div>
+                {% for s in site.friend %}
+                <a class="fonttext" href="{{ s[1] }}" target="_blank">
+                    <i style="font-size:14px;color:#0090ff;">{{ s[0] }}</i>
+                </a>
                 {% endfor %}
             </section>
             {% endif %}

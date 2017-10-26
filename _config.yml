@@ -42,6 +42,11 @@ postPatterns: 'circuitBoard'
 sns:
   github: '//github.com/anlilei504'
 
+friend:
+  我的Github: '//github.com/anlilei504'
+  陈凤栋的博客: '//blog.chenfengdong.top'
+  
+
 # Tags 设置标签
 recommend-tags: true # whether or not display recommend-tags on the sidebar
 recommend-condition-size: 12 # a tag will be recommended if the size of it is more than this value
